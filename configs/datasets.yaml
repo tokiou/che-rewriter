@@ -1,0 +1,18 @@
+datasets:
+  - id: somosnlp/lenguaje-claro-dataset
+    source: huggingface
+    license: apache-2.0
+    use: training
+    notes: "Spanish clear-language rewriting dataset. Useful for meaning-preserving rewrites."
+
+  - id: somosnlp/es-inclusive-language
+    source: huggingface
+    license: cc-by-nc-sa-4.0
+    use: optional_training_non_commercial
+    notes: "Controlled Spanish rewriting dataset. Non-commercial license."
+
+  - id: latam-gpt/Trueque-Benchmark-beta-0.1
+    source: huggingface
+    license: apache-2.0
+    use: evaluation
+    notes: "Latin American cultural benchmark. Use for evaluation prompts, not core training."
