@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/che_rewriter/__init__.py
+src/che_rewriter.egg-info/PKG-INFO
+src/che_rewriter.egg-info/SOURCES.txt
+src/che_rewriter.egg-info/dependency_links.txt
+src/che_rewriter.egg-info/requires.txt
+src/che_rewriter.egg-info/top_level.txt

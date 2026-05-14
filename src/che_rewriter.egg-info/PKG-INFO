@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: che-rewriter
+Version: 0.1.0
+Summary: Fine-tuned LLM for rewriting neutral Spanish into Rioplatense Spanish.
+Author: Francisco Vega
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: transformers
+Requires-Dist: datasets
+Requires-Dist: accelerate
+Requires-Dist: bitsandbytes
+Requires-Dist: peft
+Requires-Dist: trl
+Requires-Dist: sentencepiece
+Requires-Dist: protobuf
+Requires-Dist: scikit-learn
+Requires-Dist: evaluate
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+
+# che-rewriter
