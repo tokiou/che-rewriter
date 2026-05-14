@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual env
+.venv/
+venv/
+
+# Env
+.env
+.env.*
+
+# Heavy data
+data/raw/*
+data/processed/*
+
+# Keep folder placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Keep small example datasets
+!data/examples/
+!data/examples/*.jsonl
+
+# Models / training artifacts
+models/
+checkpoints/
+outputs/*
+!outputs/.gitkeep
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
